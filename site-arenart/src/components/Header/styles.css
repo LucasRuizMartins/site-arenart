@@ -1,0 +1,31 @@
+.logo {
+  margin-left: 10px;
+  width: 82px;
+}
+
+.arenart-carousel-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.dsc-menu-item-active {
+  margin: 10px;
+  font-weight: 700;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.carousel-caption-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  height: 50px;
+  background-color: rgba(31, 31, 31, 0.7);
+}
