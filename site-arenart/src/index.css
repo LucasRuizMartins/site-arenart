@@ -1,0 +1,21 @@
+:root {
+    --arenart-color-bg-primary: #c2c2c2;
+    --arenart-color-bg-secondary: #E67926;
+    --arenart-color-bg-secondary-hover: #cc6920;
+    --arenart-color-bg-tertiary: #002FBB;
+  
+  
+    --arenart-color-card-bg: #fff;
+    --arenart-color-card-border: #d9d9d9;
+  
+    --arenart-color-btn-primary: #3483fa;
+    --arenart-color-btn-inverse: #fff;
+  
+    --arenart-color-font-primary: #636363;
+    --arenart-color-font-secondary: #fff;
+    --arenart-color-font-tertiary: #C2C2C2;
+    --arenart-color-font-quaternary: #000;
+    --arenart-color-font-quintenary: #55bc04;
+  }
+
+
