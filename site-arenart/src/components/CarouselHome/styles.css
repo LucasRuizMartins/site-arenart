@@ -1,26 +1,4 @@
-.principal-btn {
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    height: 50px;
-    font-weight: 700;
-    background-color: #E67926;
-    border-color: #000 ;
-}
 
-.principal-btn:hover {
-    background-color: var(--arenart-color-bg-secondary-hover);
-    border-color: #000 ;
-    cursor: pointer;
-}
-
-.principal-btn:active {
-    background-color: #943e00;
-    border-color: #000 ;
-    cursor: pointer;
-}
 
 .flex-center{
     align-items: center;

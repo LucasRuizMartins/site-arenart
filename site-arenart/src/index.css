@@ -3,6 +3,7 @@
     --arenart-color-bg-secondary: #E67926;
     --arenart-color-bg-secondary-hover: #cc6920;
     --arenart-color-bg-tertiary: #002FBB;
+    --arenart-color-bg-tertiary-hover: #012181;
   
   
     --arenart-color-card-bg: #fff;
@@ -18,4 +19,43 @@
     --arenart-color-font-quintenary: #55bc04;
   }
 
+  .arenart-btn{
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .principal-btn {
+    background-color:  var(--arenart-color-bg-secondary);
+    border-color: #000 ;
+}
 
+.principal-btn:hover {
+    background-color: var(--arenart-color-bg-secondary-hover);
+    border-color: #000 ;
+}
+
+.principal-btn:active {
+    background-color: #943e00;
+    border-color: #000 ;
+}
+
+.secondary-btn {
+  color: #fff;
+  background-color:  var(--arenart-color-bg-tertiary);;
+  border-color: #000 ;
+}
+
+.secondary-btn:hover {
+  background-color: var(--arenart-color-bg-tertiary-hover);
+  border-color: #000 ;
+}
+
+.secondary-btn:active {
+  background-color: #0f0050;
+  border-color: #000 ;
+}
