@@ -17,6 +17,7 @@ export function Header() {
           <Nav className="me-auto">
             <Nav.Link href="/Home" className={location.pathname === '/Home' ? 'active' : ''}>Sobre</Nav.Link>
             <Nav.Link href="/Galeria" className={location.pathname === '/Galeria' ? 'active' : ''}>Galeria</Nav.Link>
+            <Nav.Link href="/temporadas" className={location.pathname === '/temporadas' ? 'active' : ''}>Temporadas</Nav.Link>
             <Nav.Link href="/Projetos" className={location.pathname === '/Projetos' ? 'active' : ''}>Projetos</Nav.Link>
             <Nav.Link href="/Premios" className={location.pathname === '/Premios' ? 'active' : ''}>Prêmios</Nav.Link>
             <Nav.Link href="/Elenco" className={location.pathname === '/Elenco' ? 'active' : ''}>Elenco</Nav.Link>
