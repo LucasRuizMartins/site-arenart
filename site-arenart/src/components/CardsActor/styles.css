@@ -1,0 +1,38 @@
+
+/* Estilo inicial para imagens: preto e branco */
+.img-cards-play {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px black;
+}
+
+/* Estilo para hover no contêiner pai */
+.cards-play:hover .img-cards-play {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+  box-shadow: 1px 5px 10px 0px black;
+}
+
+
+.cardsplay-textarea {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: inherit;
+}
+.cardsplay-text {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .cardsplay-textarea {
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  .cardsplay-text {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+}

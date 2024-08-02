@@ -10,7 +10,7 @@ type Props = {
   path: string;
 };
 
-function CarouselHome({ text, imgUrl, title, year, path }: Props) {
+function CardsPlay({ text, imgUrl, title, year, path }: Props) {
   return (
     <Container className="cards-play">
       <Row className="align-items-center mt-5">
@@ -31,4 +31,4 @@ function CarouselHome({ text, imgUrl, title, year, path }: Props) {
   );
 }
 
-export default CarouselHome;
+export default CardsPlay;
