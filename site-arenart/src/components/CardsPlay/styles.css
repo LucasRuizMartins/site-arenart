@@ -1,6 +1,8 @@
 
 /* Estilo inicial para imagens: preto e branco */
 .img-cards-play {
+
+  max-height: 550px;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
   border-radius: 20px;
