@@ -3,4 +3,5 @@ export type PlaysDTO = {
   year: string[];
   shortDescription: string;
   imgUrl: string;
+  path:string;
 };

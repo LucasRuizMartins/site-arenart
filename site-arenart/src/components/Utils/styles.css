@@ -1,0 +1,14 @@
+
+.reveal {
+  height: 300px;
+  opacity: 0;
+  transform: translateY(20px);
+  transform: translateX(30);
+  transition: opacity 1 ease-out, transform 0.6s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(50);
+}
+
