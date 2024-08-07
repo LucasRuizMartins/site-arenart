@@ -1,11 +1,15 @@
-
+import React, { ReactNode } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './styles.css';
 
-const RevealText = ({ children }) => {
+interface RevealTextProps {
+  children: ReactNode;
+}
+
+const RevealText: React.FC<RevealTextProps> = ({ children }) => {
   const { ref, inView } = useInView({
     triggerOnce: true,
-    threshold: 0.8,
+    threshold: 0.5,
   });
 
   return (

@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+
+
 :root {
     --arenart-color-bg-primary: #c2c2c2;
     --arenart-color-bg-secondary: #E67926;
     --arenart-color-bg-secondary-hover: #cc6920;
     --arenart-color-bg-tertiary: #002FBB;
     --arenart-color-bg-tertiary-hover: #012181;
-  
-  
+    
     --arenart-color-card-bg: #fff;
     --arenart-color-card-border: #d9d9d9;
   
@@ -18,6 +20,9 @@
     --arenart-color-font-quaternary: #000;
     --arenart-color-font-quintenary: #55bc04;
   }
+
+
+  *{font-family: 'Figtree', sans-serif;}
 
   .arenart-btn{
     border-radius: 8px;
