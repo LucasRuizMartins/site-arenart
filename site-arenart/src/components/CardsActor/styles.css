@@ -1,28 +1,28 @@
-
-/* Estilo inicial para imagens: preto e branco */
-.img-cards-play {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease, transform 0.3s ease;
-  border-radius: 20px;
-  box-shadow: 1px 1px 5px 1px black;
+.actor-photo {
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+.card-actor {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-color: 2px solid red;
+  border-radius: 15px;
+  height: 330px;
+  width: 200px;
+  background-color: #dcdcdc;
+  cursor: pointer;
 }
 
-/* Estilo para hover no contêiner pai */
-.cards-play:hover .img-cards-play {
-  filter: grayscale(0%);
-  transform: scale(1.03);
-  box-shadow: 1px 5px 10px 0px black;
-}
-
-
-.cardsplay-textarea {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  text-decoration: none;
-  color: inherit;
-}
-.cardsplay-text {
-  font-size: 14px;
+.actor-title {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {

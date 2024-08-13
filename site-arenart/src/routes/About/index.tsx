@@ -1,10 +1,18 @@
-import { Carousel, Col, Container, Image, Row } from "react-bootstrap";
+import {
+  Carousel,
+  Col,
+  Container,
+  Image,
+  Navbar,
+  Row,
+} from "react-bootstrap";
 
 import "./styles.css";
 import onda from "../../assets/util/onda-tep.svg";
 import logo from "../../assets/logo-talepa.png";
 import RevealText from "../../components/Utils/RevealText";
 import OverlayBtn from "../../components/Utils/OverlayBtn";
+
 
 export function About() {
   return (
@@ -144,6 +152,7 @@ export function About() {
             btnText={"mais a respeito da foto"}
             text={"Primeiro Espetaculo da cia de teatro Tal&Pá 1994"}
             title={"Dirty Dancing"}
+            color={"secondary"}
           />
         </div>
 
@@ -195,7 +204,11 @@ export function About() {
             />
           </Col>
         </Row>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="negative-margin-bottom"
+        >
           <path
             fill="#000"
             fill-opacity="1"
@@ -299,6 +312,345 @@ export function About() {
             </p>
           </Col>
         </Row>
+
+        <Row className="tertiary-part">
+          {" "}
+          <Col xs={2} md={4}></Col>
+          <Col xs={10} md={4}>
+            <h2 className="text-white">LINHA DO TEMPO TAL & PÁ</h2>
+          </Col>
+          <Col xs={0} md={4}></Col>
+        </Row>
+
+        <Row className="justify-content-center tertiary-part">
+          <Col xs={12} md={12}>
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/1994-dirty-dancing/dirty-dancing3.jpg?raw=true"
+                    alt="Dirty-Dancing"
+                    className="timeline-img"
+                  />
+                  <p>1994 - Dirty Dancing</p>
+                </div>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/1996-Fantasma-da-opera/fantasman.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>1996 - Fantasma da Opera </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/1996-Sing/sing-2.jpg?raw=true"
+                    alt="SING "
+                    className="timeline-img"
+                  />
+                  <p>1996 - SING</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/1997-Um-conto-de-natal/um-conto.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p> 1997 - Um conto de natal</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/1999-nos-telhados-da-cidade/nos-telhados.jpg?raw=true"
+                    alt="nos telhados da cidade"
+                    className="timeline-img"
+                  />
+                  <p>1999 - Nos Telhados da cidade</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2000-muito-barulho-por-nada/muito-barulho.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2000 - Muito Barulho por nada </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2001-a-pena-e-a-lei/a-pena-e-a-lei.jpg?raw=true"
+                    alt="muito barulho por nada"
+                    className="A pena e a lei"
+                  />
+                  <p>2001 - A pena e a Lei</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2002-o-longo-caminho-ate-a-fonte/longo-caminho.jpg?raw=true"
+                    alt="longo-caminho"
+                    className="timeline-img"
+                  />
+                  <p>2002 - Longo caminho até a fonte </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2003-o-mambembe/mambembe.jpg?raw=true"
+                    alt="Evento 3"
+                    className="timeline-img"
+                  />
+                  <p>2003 - O Mambemte</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2004-o-arauto-da-liberdade/ARAUTO2.JPG?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p> 2004 - O Arauto da liberdade </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2005-o-ultimo-carro/ultimo-carro.jpg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2005 - O Ultimo Carro</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2006-arena-conta-zumbi/zumbi.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p> 2006 - Arena Conta Zumbi </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2007-motorboy/motorboy.jpg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2007 - MotorBoy</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2008-o-que-eu-vi-o-que-nos-veremos/oq-eu-vi%20-2.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2008 - O que eu vi e o que nós veremos </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2009-ate-onde-a-vista-alcanca/ate-onde.jpg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2009 - Até onde a vista alcança</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2010-voando-para-o-alto/voando2.JPG?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2010 - Voando para o alto </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2011-sussurros/sussurros.jpg?raw=true"
+                    alt="2011 - Sussurros"
+                    className="timeline-img"
+                  />
+                  <p>2011 - Sussurros</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2012-arena-conta-danton/danton.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2012 - Arena conta Danton </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2013-as-vozes-de-joana/joana2.jpg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2013 - As vozes de Joana </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2016-insane/2016-insane.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2016 - Insane </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2017-chao-brasil/guarda-chuva.jpg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2017 - Chão Brasil</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2018-clarao-nas-estrelas/clarao.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2018 - Clarão nas estrelas </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2019-nos-telhados-da-cidade/nos-telhados.jpg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2019 - Nos telhados da cidade</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2021-flor-telefone-moca/flor-telefone-moca.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2021 - Flor telefone moça </p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content left">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2022-bar-do-caminho/bar.jpeg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p>2022 - Bar do caminho</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-content right">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2023-chao-brasil/chaobrasil.jpg?raw=true"
+                    alt="fantasma da opera"
+                    className="timeline-img"
+                  />
+                  <p>2022 - 2023 - Chão Brasil </p>
+                </div>
+              </div>
+              <div className="">
+                <div className="timeline-content center">
+                  <Image
+                    src="https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2024-tempus-fugit/bg.jpeg?raw=true"
+                    alt="Ultimo carro"
+                    className="timeline-img"
+                  />
+                  <p className="tempus-fugit-text">2024 - Tempus Fugit</p>
+                </div>
+              </div>
+
+              {/* Adicione mais itens conforme necessário */}
+            </div>
+          </Col>
+        </Row>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#000000"
+            fill-opacity="1"
+            d="M0,96L8.9,117.3C17.8,139,36,181,53,213.3C71.1,245,89,267,107,277.3C124.4,288,142,288,160,261.3C177.8,235,196,181,213,149.3C231.1,117,249,107,267,117.3C284.4,128,302,160,320,160C337.8,160,356,128,373,128C391.1,128,409,160,427,192C444.4,224,462,256,480,266.7C497.8,277,516,267,533,261.3C551.1,256,569,256,587,256C604.4,256,622,256,640,250.7C657.8,245,676,235,693,202.7C711.1,171,729,117,747,128C764.4,139,782,213,800,240C817.8,267,836,245,853,245.3C871.1,245,889,267,907,272C924.4,277,942,267,960,256C977.8,245,996,235,1013,202.7C1031.1,171,1049,117,1067,122.7C1084.4,128,1102,192,1120,192C1137.8,192,1156,128,1173,112C1191.1,96,1209,128,1227,122.7C1244.4,117,1262,75,1280,58.7C1297.8,43,1316,53,1333,101.3C1351.1,149,1369,235,1387,229.3C1404.4,224,1422,128,1431,80L1440,32L1440,0L1431.1,0C1422.2,0,1404,0,1387,0C1368.9,0,1351,0,1333,0C1315.6,0,1298,0,1280,0C1262.2,0,1244,0,1227,0C1208.9,0,1191,0,1173,0C1155.6,0,1138,0,1120,0C1102.2,0,1084,0,1067,0C1048.9,0,1031,0,1013,0C995.6,0,978,0,960,0C942.2,0,924,0,907,0C888.9,0,871,0,853,0C835.6,0,818,0,800,0C782.2,0,764,0,747,0C728.9,0,711,0,693,0C675.6,0,658,0,640,0C622.2,0,604,0,587,0C568.9,0,551,0,533,0C515.6,0,498,0,480,0C462.2,0,444,0,427,0C408.9,0,391,0,373,0C355.6,0,338,0,320,0C302.2,0,284,0,267,0C248.9,0,231,0,213,0C195.6,0,178,0,160,0C142.2,0,124,0,107,0C88.9,0,71,0,53,0C35.6,0,18,0,9,0L0,0Z"
+          ></path>
+        </svg>
+
+        <Row className="second-part">
+          <Col xs={2} md={4}></Col>
+          <Col xs={8} md={4}>
+            <p className="text-about ">
+              Contar trinta anos é sempre um desafio. Em cada foto dessas existe
+              um universo cada universo é repleto de pessoas cada pessoa possui
+              inúmeras histórias. E todas essas histórias nós contamos juntos,
+              aos alunos atores e aos alunos público enquanto for possível, nós
+              nos veremos de novo amigos
+            </p>
+          </Col>
+          <Col xs={2} md={4}></Col>
+        </Row>
+
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar.Brand href="/Home" className="mx-auto">
+            <img className="logo-tep" src={logo} alt="Logo" />
+          </Navbar.Brand>
+        </Navbar>
       </section>
     </>
   );

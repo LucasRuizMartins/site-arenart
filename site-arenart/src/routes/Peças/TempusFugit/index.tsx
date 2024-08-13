@@ -4,10 +4,11 @@ import { Header } from "../../../components/Header";
 import arvore from "../../../assets/pecas/tempus-fugit/arvore.jpeg";
 import deserto from "../../../assets/pecas/tempus-fugit/deserto.jpg";
 import bya from "../../../assets/pecas/tempus-fugit/bya01.jpeg";
-import dani from "../../../assets/pecas/chao-brasil/dani.jpg";
-import amanda from "../../../assets/pecas/chao-brasil/amanda.jpg";
 
 import CardsActor from "../../../components/CardsActor";
+import "./styles.css";
+import * as actorService from "../../../services/actor-services";
+import { ActorInfoDTO } from "../../../models/actors";
 
 export function TempusFugit() {
   return (
@@ -116,43 +117,39 @@ export function TempusFugit() {
             xs={12}
             md={12}
             className="d-flex justify-content-center align-items-center"
-          >
-            <h3>Elenco</h3>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col xs={12} md={4}>
-            <CardsActor
-              name={"Daniel "}
-              imgUrl={dani}
-              instagram={"@dani"}
-            ></CardsActor>
-          </Col>
-          <Col xs={12} md={4}>
-            <CardsActor
-              name={"amanda "}
-              imgUrl={amanda}
-              instagram={"@amanda"}
-            ></CardsActor>
-          </Col>
-          <Col xs={12} md={4}>
-            <CardsActor
-              name={"amanda "}
-              imgUrl={amanda}
-              instagram={"@amanda"}
-            ></CardsActor>
-          </Col>
-          <Col xs={12} md={4}>
-            <CardsActor
-              name={"amanda "}
-              imgUrl={amanda}
-              instagram={"@amanda"}
-            ></CardsActor>
-          </Col>
+          ></Col>
         </Row>
       </Container>
 
+      <Row>
+        <Col className="text-center mb-4">
+          <div className="elenco-desc">
+            <h3>Elenco</h3>
+          </div>
+        </Col>
+      </Row>
+
+      <Container
+        fluid
+        className="d-flex justify-content-center align-items-center"
+      >
+        <Row className="justify-content-center align-items-center">
+          {actorService.playsSeason.slice().map((actor: ActorInfoDTO) => (
+            <Col
+              xs="auto"
+              key={actor.carimboDeDataHora}
+              className="d-flex justify-content-center mb-3"
+            >
+              <CardsActor
+                name={actor.nomeSocialArtistico}
+                imgUrl={actor.fotoParaExibicao}
+                instagram={actor.instagram}
+                actor={actor}
+              />
+            </Col>
+          ))}
+        </Row>
+      </Container>
       <Footer />
     </>
   );

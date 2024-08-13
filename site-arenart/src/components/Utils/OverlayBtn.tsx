@@ -7,9 +7,10 @@ interface Props {
   btnText: string;
   text: string;
   title: string;
+  color:string;
 }
 
-const OverlayBtn: React.FC<Props> = ({ text, btnText, title }) => {
+const OverlayBtn: React.FC<Props> = ({ text, btnText, title, color }) => {
   const popover = (
     <Popover id="popover-basic">
       <Popover.Header as="h3">{title}</Popover.Header>
@@ -19,7 +20,7 @@ const OverlayBtn: React.FC<Props> = ({ text, btnText, title }) => {
 
   return (
     <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-      <Button variant="secondary">{btnText}</Button>
+      <Button variant={color}>{btnText}</Button>
     </OverlayTrigger>
   );
 };

@@ -60,3 +60,146 @@
   margin-top: -5px;
   background-color: black;
 }
+
+.negative-margin-bottom {
+  margin-bottom: -10px;
+}
+
+/* TIME LINE */
+/* centro */
+
+.center {
+  margin: 0 auto;
+  width: 50%;
+}
+.tempus-fugit-text {
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+}
+
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #3498db;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza a linha */
+}
+
+.timeline {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  padding: 10px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline-content {
+  padding: 5px;
+  background-color: white;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 238, 255, 0.94);
+  width: calc(50% - 60px);
+}
+
+/* imagens */
+
+.timeline-content.left {
+  left: calc(15% - 10px);
+  text-align: center;
+  font-weight: 700;
+  width: 400px;
+}
+
+.timeline-content.right {
+  left: calc(50% + 23px);
+  text-align: center;
+  font-weight: 700;
+  width: 400px;
+}
+
+.timeline-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/*SETAS */
+
+.timeline-content.left::before {
+  content: " - ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  right: -36px;
+  border: 15px solid transparent;
+  border-left-color: white;
+}
+
+.timeline-content.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  left: -30px;
+  border: 15px solid transparent;
+  border-right-color: white;
+}
+.logo-tep{width: 200px;}
+
+@media screen and (max-width: 768px) {
+  .timeline-item {
+    width: 110%;
+  }
+  .timeline-content.left,
+  .timeline-content.right {
+    width: 90%;
+    left: 0;
+    margin-left: 10px;
+  }
+
+  .timeline-item::after {
+    left: 30px;
+    transform: none; /* Remove transformação para largura menor */
+  }
+
+  .timeline-content.left::before,
+  .timeline-content.right::before {
+    content: " - - - ";
+    position: absolute;
+    top: 22px;
+    left: -16px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.94);
+  }
+
+  .center{
+    margin: 0 auto;
+    width: 100%;
+  }
+  .tempus-fugit-text{
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .timeline-content.left {
+    left: calc(50% - 420px);
+  }
+
+  .timeline-content.right {
+    left: calc(50% + 20px);
+  }
+}
