@@ -1,6 +1,8 @@
 import { PlaysDTO } from "../models/plays";
 
-//https://drive.google.com/uc?export=view&id=
+//https://drive.google.com/uc?export=view&id= 
+
+
 
 export const playsSeason: PlaysDTO[] = [
   {
@@ -19,7 +21,7 @@ export const playsSeason: PlaysDTO[] = [
     year: ["2023"],
     shortDescription:
       "Nessa remontagem contamos a história do Palhaço da Lua com algumas alterações e adaptações. Discutimos um Brasil que começa a participar da emigração, não mais um local onde os imigrantes costumam procurar, mas agora um país onde os nativos começam a imigrar em busca de oportunidades melhores.",
-    path: "tempus-fugit",
+    path: "chao-brasil",
   },
   {
     name: "Bar do Caminho",

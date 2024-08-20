@@ -6,18 +6,18 @@ export type actor = {
 }
 
 export type ActorInfoDTO = {
-    carimboDeDataHora: string;
-    enderecoDeEmail: string;
-    nomeSocialArtistico: string;
-    temporadasParticipacao: string[];
+    dataHora: string;
+    email: string;
+    nome: string;
+    temporadas: string[];
     seguePaginaInstagram: string;
     conteudoRedesSociais: string;
     talEPaRepresentacao: string;
-    conselhoParaNovosIntegrantes: string;
+    conselho: string;
     ajudaParaONG: string;
     instagram: string;  
     linkedin: string;   
     facebook: string;   
     recadinho: string; 
-    fotoParaExibicao: string;  
+    foto: string;  
 };

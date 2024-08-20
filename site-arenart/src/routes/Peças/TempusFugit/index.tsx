@@ -134,15 +134,15 @@ export function TempusFugit() {
         className="d-flex justify-content-center align-items-center"
       >
         <Row className="justify-content-center align-items-center">
-          {actorService.playsSeason.slice().map((actor: ActorInfoDTO) => (
+          {actorService.playsSeason.slice().filter((actor: ActorInfoDTO)=> actor.temporadas.includes("2024 - Tempus Fugit")).map((actor: ActorInfoDTO) => (
             <Col
               xs="auto"
-              key={actor.carimboDeDataHora}
+              key={actor.dataHora}
               className="d-flex justify-content-center mb-3"
             >
               <CardsActor
-                name={actor.nomeSocialArtistico}
-                imgUrl={actor.fotoParaExibicao}
+                name={actor.nome}
+                imgUrl={actor.foto}
                 instagram={actor.instagram}
                 actor={actor}
               />

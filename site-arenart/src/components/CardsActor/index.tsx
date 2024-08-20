@@ -22,7 +22,10 @@ function CardsActor({ actor,name, imgUrl, instagram }: Props) {
   return (
     <>
       <div style={{ width: "18rem" }} className="card-actor" onClick={handleCardClick}>
-        <Image className="actor-photo" src={imgUrl} roundedCircle></Image>
+        <div>
+        <Image className="actor-photo" src={imgUrl}  fluid></Image>
+        </div>
+
         <h3 className="actor-title">{name}</h3>
         <p>{instagram}</p>
       </div>
@@ -30,8 +33,8 @@ function CardsActor({ actor,name, imgUrl, instagram }: Props) {
       <VerticalModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        title={actor.nomeSocialArtistico}
-        bodyText={`Instagram: ${instagram}`} 
+        title={actor.nome}
+  
         actor={actor}      />
     </>
   );

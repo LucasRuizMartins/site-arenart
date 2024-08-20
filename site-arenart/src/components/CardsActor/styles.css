@@ -1,8 +1,9 @@
 .actor-photo {
-  min-width: 200px;
-  min-height: 200px;
-  max-width: 200px;
-  max-height: 200px;
+
+  max-width: 220px;
+  max-height: 220px;
+  border-radius: 30px;
+  border: 1px solid black;
 }
 .card-actor {
   margin: 20px;
