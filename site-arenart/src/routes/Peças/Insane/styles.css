@@ -1,5 +1,14 @@
-.backgroun-chaobrasil {
-  background-color: #022777;
+
+.background-top-insane{
+  margin: 0 auto;
+  display: flex;
+  width: 400px;
+  
+
+}
+
+.background-insane{
+  background-color: #000;
   color: aliceblue;
 }
 
@@ -21,7 +30,3 @@
   position: relative;
   z-index: 1;
 }
-/*
-@media (min-width: 768px) {
-}
-*/

@@ -225,15 +225,15 @@ export function ChaoBrasil() {
 
       <Row>
         <Col className="text-center mb-4">
-          <div className="elenco-desc">
-            <h3>Elenco</h3>
+          <div className="">
+            <h3>Elenco - Chão Brasil 2022</h3>
           </div>
         </Col>
       </Row>
 
       <Container
         fluid
-        className="d-flex justify-content-center align-items-center elenco-chaobrasil"
+        className="d-flex justify-content-center align-items-center"
       >
         <Row className="justify-content-center align-items-center">
           {actorService.playsSeason

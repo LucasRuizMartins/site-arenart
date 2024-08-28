@@ -128,7 +128,7 @@ export const playsSeason: ActorInfoDTO[] = [
     conteudoRedesSociais:
       "Acho uma ótima forma de promover o trabalho e mostrar que existem projetos sociais que promovem a cultura desde muito tempo atrás",
     talEPaRepresentacao:
-      "Acho que se fosse para definir uma frase seria 'A arte realmente salva' (ou até mesmo o Tal e Pá salva)",
+      "O Tal e Pá, é família, abrigo, Tal e Pá te ajuda crescer, forma caráter e mais que tudo isso, Tal e Pá é amor, representa crescimento e te ensina que mesmo com 100 pessoas com personalidades diferentes conseguem agir em conjunto. Tal e Pá salva!!",
     conselho:
       "Se joga no processo, confia, aproveita a oportunidade que eu juro que você não vai se arrepender.",
     ajudaParaONG:
@@ -137,7 +137,7 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "Tal e Pá é mais que uma companhia, é uma família",
-    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/max.jpg?raw=true",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/maxine.jpeg?raw=true",
   },
   {
     dataHora: "16/08/2024 14:29:09",
@@ -213,7 +213,7 @@ export const playsSeason: ActorInfoDTO[] = [
     conselho:
       "Aproveite tudo o que tem para aproveitar, absorva conhecimento, solte a criatividade, se jogue, viva a arte!! E acima de tudo: Seja você mesmo. O Tal&Pá é um lugar seguro, confortável e repleto de pessoas incríveis que com certeza só vieram para agregar. Então, o que eu tenho a dizer é: aproveite e viva os momentos incríveis como se fosse sua última estação, porque aqui no Tal&Pá o tempo voa!",
     ajudaParaONG: "",
-    instagram: "",
+    instagram: "@tamawarari",
     linkedin: "",
     facebook: "",
     recadinho: "",
@@ -290,7 +290,7 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "",
-    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/arauto-mambembe/raffael.png?raw=true",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/raffael.png?raw=true",
   },
   {
     dataHora: "22/08/2024 09:39:30",
@@ -307,7 +307,7 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/nayla.jpg?raw=true",
   },
   {
     dataHora: "22/08/2024 12:50:42",
@@ -324,7 +324,7 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "Não tenho",
     facebook: "Não tenho",
     recadinho: "Não sei ainda 😅",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/iza.jpeg?raw=true",
   },
   {
     dataHora: "24/08/2024 20:21:40",
@@ -359,9 +359,262 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "",
-    foto: ""
-},
-  /* 2010 - 2014 */
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/bya.jpeg?raw=true",
+  },
+  {
+    dataHora: "27/08/2024 19:35:27",
+    email: "estefanyp660@gmail.com",
+    nome: "Estefany Pereira",
+    temporadas: ["2024 - Tempus Fugit"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Bom, porém seria legal os Posts seguir uma identidade visual do Tal e Pá, outro ponto que é interessante ter mais conteúdos semanalmente para criar uma rotina de postagens e engajamento de forma marcante e que traga uma maior imersão do público que não está presente aos sábados.",
+    talEPaRepresentacao:
+      "Uma chance de ser alguém melhor e conhecer pessoas que estão engajadas em ajudar e melhorar também, minha percepção de muitas coisas mudaram depois que comecei a fazer teatro, minha mentalidade está mais livre do que já foi um dia.",
+    conselho:
+      "A partir do momento que você pisa no chão do Tal e Pá, não precisa ter medo ou vergonha de realizar as propostas porque cada oficina é um aprendizado constante e quanto mais você se permitir sair da normalidade do seu dia a dia, mais livre você será.",
+    ajudaParaONG:
+      "Divulgação, criar um manual de Identidade visual/Brandbook (não seria possível agora por falta de materiais de trabalho disponíveis) e ajudar em postagens que mostrem o que é o projeto... (enquanto estou disponível à tarde)",
+    instagram: "@allfection_",
+    linkedin:
+      "https://www.linkedin.com/in/estefany-pereira-dos-santos-781884252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    facebook: "",
+    recadinho:
+      "Obrigado a todos os coordenadores por se voluntariar de corpo e alma nesse projeto que existe há mais de 30 anos e sem dúvidas mudou a vida de inúmeras pessoas, obrigado aos meus companheiros de sábados que me acolheram bem quando cheguei e agem como um lar, muito obrigado Tal e Pá🎭💙",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/Estefany.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 16:35:01",
+    email: "camargojoaovitorde@gmail.com",
+    nome: "João Vitor de Camargo",
+    temporadas: ["2024 - Tempus Fugit", "2023 - Chão Brasil"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Não estou a utilizar o Instagram ultimamente",
+    talEPaRepresentacao:
+      "Uma família, que eu não trocaria por nada, me traz a maior felicidade que eu já senti",
+    conselho: "Se divirta, pois se divertindo e se dedicando você vai longe",
+    ajudaParaONG: "Não tenho nada em mente, me desculpe",
+    instagram: "@decwmargo",
+    facebook: "",
+    linkedin: "",
+    recadinho: "João Camargo",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/joao.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 17:15:21",
+    email: "mendesrayane078@gmail.com",
+    nome: "Rayane Mendes",
+    temporadas: ["2023 - Chão Brasil"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "O conteúdo é bacana de se acompanhar, assim consigo ficar por dentro de tudo.",
+    talEPaRepresentacao:
+      "O Tal e Pá foi crucial no meu desenvolvimento como pessoa, descobri muitas coisas sobre mim (que eu sou comunicativa, que é importante me posicionar) aprendi essas coisas com os coordenadores e com meus colegas de cena que me ensinaram muito.",
+    conselho:
+      "Respeitar os coordenadores no sentido de não se atrasar, não faltar ensaio, dedicar tempo verdadeiramente pro teatro e não pirar para ser perfeito ou algo assim.",
+    ajudaParaONG:
+      "A distância eu acredito que seria divulgando nas redes ou ajudando nas campanhas de arrecadação.",
+    instagram: "@_merc3",
+    facebook: "",
+    linkedin: "",
+    recadinho:
+      "Obrigada Tal e Pá por me ajudar na minha construção, espero um dia poder voltar e trazer algo de mim para vocês também ❤️",
+    foto: "",
+  },
+  /* ----------------- 2019 - 2020 - 2022*/
+  {
+    dataHora: "28/08/2024 13:23:41",
+    email: "gigicampossousa@gmail.com",
+    nome: "Gi Campos",
+    temporadas: ["2022 - Bar do Caminho"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Cada dia melhores e mais encorpados",
+    talEPaRepresentacao:
+      "O Tal & Pá foi um momento importante na minha vida, onde sempre guardarei com carinho, pois ele veio numa fase complicada. Participei da primeira turma após o lockdown, e ali foi meu primeiro contato com outras pessoas novamente. Também foi meu último ano de ensino médio, onde me ajudou com todas as minhas ansiedades e dúvidas sobre o futuro. O Tal & Pá me acolheu e me desenvolveu como pessoa. Essa iniciativa é maravilhosa e espero poder acompanhar a mudança na vida das pessoas por muitos e muitos anos ainda.",
+    conselho:
+      "Se entreguem de corpo e alma. Às vezes parece que os gritos da Val não fazem sentido e que ela é louca, mas você vai lembrar deles, de uma maneira boa, pelo resto da vida kkkkkkkkk",
+    ajudaParaONG: "",
+    instagram: "@gica.psd",
+    facebook: "",
+    linkedin:
+      "https://www.linkedin.com/in/giovanna-campos-885902260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    recadinho:
+      "Obrigada Val, Sol e Pati, vocês são incríveis ❤️ morro de saudade dos domingos de manhã",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/gigi.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 12:52:58",
+    email: "bibi.ancasil@gmail.com",
+    nome: "Bibi",
+    temporadas: [
+      "2023 - Chão Brasil",
+      "2022 - Bar do Caminho",
+      "2019 - Nos telhados da cidade",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Quero ver mais ensaios",
+    talEPaRepresentacao:
+      "Minha base, para responsabilidades e vivências da vida.",
+    conselho: "Aproveitem cada exercício e gincana.",
+    ajudaParaONG: "Claro!",
+    instagram: "Biiibiiiisss",
+    facebook: "",
+    linkedin: "",
+    recadinho: "Amo tanto vocês",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2019-nos-telhados-da-cidade/bya.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 10:27:51",
+    email: "i-guedes-mello@bol.com.br",
+    nome: "Icaro Mello",
+    temporadas: ["2019 - Nos telhados da cidade"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Nostálgico, cada dia uma saudade diferente.",
+    talEPaRepresentacao:
+      "Foram duas passagens repletas de aprendizado, por isso marquei na pele essa companhia. Me fez amadurecer como pessoa e até na vida profissional. Foi sinônimo de responsabilidade, empatia, sonhos...",
+    conselho:
+      "Calma, respira, não surta porque o pior sempre está por vir kkkk, serão longas batalhas, vários problemas, mas o resultado é maravilhoso. Aprendam o máximo possível, a vida é uma caixa de surpresas...",
+    ajudaParaONG:
+      "Infelizmente não muito, estando sempre correndo, talvez com algumas doações...",
+    instagram: "@icaromello14",
+    facebook: "",
+    linkedin: "",
+    recadinho:
+      "Só quero agradecer ao Tal& Pá, foram no total 3/4 anos somando o Jr. Sempre admirando o trabalho e dedicação dessa companhia e sempre terei orgulho por ter sido o Liu...",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/icaro.jpg?raw=true",
+  },
+  {
+    dataHora: "27/08/2024 18:38:34",
+    email: "marinadourado380@gmail.com",
+    nome: "Marina Dourado",
+    temporadas: ["2019 - Nos telhados da cidade"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Muito informativo, não só para quem pensa em fazer teatro mas também aos que não fazem mais parte do t&p ter informações de como anda a companhia.",
+    talEPaRepresentacao:
+      "Tal&Pá foi o lugar em que eu descobri o que eu queria ser no presente e no futuro. Representou meu maior orgulho e maior desafio que foi ter me entregado ao teatro. Carrego essa trajetória no meu coração eternamente.",
+    conselho:
+      "Viva intensamente todas as oficinas, todas as peças, cenas, danças, músicas, tudo o que puderem. No final tudo isso vai valer a pena, seja no teatro ou fora dele.",
+    ajudaParaONG:
+      "A divulgação do teatro é uma ótima opção de apoio ao projeto. Já que existem muitas pessoas que gostariam de fazer teatro mas muitas vezes não sabem onde tem ou se são gratuitos.",
+    instagram: "@aniramodaruod_",
+    linkedin: "",
+    facebook: "",
+    recadinho:
+      "Quero agradecer ao T&P por todo o bem que me fizeram durante minha passagem em 2019 e por tudo que fazem até hoje por essa companhia que com certeza está no coração de todos que acompanham desde o início. Principalmente que se eu não tivesse essa passagem pelo t&p, eu não teria tantas memórias boas e sinceramente uma boa comunicação que tenho hoje kkkkkk. Espero que continuem esse projeto lindo e levando arte a tantas pessoas e tantos jovens que podem subir no palco carregando esse nome tão importante. Um grande abraço a todos e muito obrigada por serem Tal&Pá.",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/marina.png?raw=true",
+  },
+
+  /* 2017-2016-2015*/
+  {
+    dataHora: "28/08/2024 15:51:59",
+    email: "julia.sabatelau@live.com",
+    nome: "Julia Sabatelau",
+    temporadas: [
+      "2016 - Chão Brasil",
+      "2015 - Insane",
+      "2014 - As vozes de Joana",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Eu acho incrível poder acompanhar a galera nessa jornada que foi tão gostosa pra mim.",
+    talEPaRepresentacao:
+      "O Tal&Pá representou o que foi a melhor época da minha vida. Conheci pessoas que levo e vou levar pra vida inteira. Aprendi coisas que com certeza não aprenderia se não tivesse feito parte dessa companhia e levo comigo lembranças que jamais serão esquecidas, como a primeira vez entrando em cena. É o maior orgulho da minha vida ter um pouco de mim dentro dessa família.",
+    conselho: "Não tenham medo de errar, nunca!",
+    ajudaParaONG:
+      "Financeiramente infelizmente no momento não. Mas nas publicações sim!",
+    instagram: "@jusabatelau",
+    facebook: "",
+    linkedin: "",
+    recadinho:
+      "Obrigada, obrigada e obrigada! À toda a equipe que esteve comigo quando eu estava aí, tanto dos atores, quanto da técnica. Eu vou carregar todos vocês pra sempre comigo.",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/julia.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 10:04:20",
+    email: "lahamleticia@gmail.com",
+    nome: "Laham",
+    temporadas: [
+      "2017 - Clarão nas estrelas",
+      "2016 - Chão Brasil",
+      "2015 - Insane",
+      "A megera domada (tal&pa jr)",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "O conteúdo sempre nos dá muita nostalgia, relembrando os momentos que vivemos e nossas histórias.",
+    talEPaRepresentacao:
+      "Tal & Pá foi uma das ferramentas primordiais para formação de caráter e de profissional que sou hoje, passei praticamente a adolescência toda me dedicando 100% ao trabalho, em lugar nenhum eu aprenderia a trabalhar em conjunto, a escutar mais e falar menos, entre diversas lições que tive nesse espaço. Tal & Pá me remete família.",
+    conselho:
+      "Se joguem 100%, não existe nada mais importante (além dos seus estudos) hoje na sua vida.",
+    ajudaParaONG: "Eu gostaria de poder contribuir muito mais!",
+    instagram: "@letsss__",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/leticia-laham.png?raw=true",
+  },
+  /*----------------------- 2010 -2011- 2012- 2013- 2014 */
+  {
+    dataHora: "28/08/2024 13:14:12",
+    email: "larissa.fc1995@hotmail.com",
+    nome: "Larissa Freire",
+    temporadas: [
+      "2011 - Sussurros",
+      "2010 - Voando para o Alto",
+      "2009 - Até onde a vista alcança",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Muito bom.",
+    talEPaRepresentacao:
+      "Foi uma época muito boa da minha adolescência. Além de conhecer pessoas, que talvez hoje não tenha contato, mas fazem parte da minha história.",
+    conselho: "Aproveitem ao máximo, porque o tempo passa rápido demais.",
+    ajudaParaONG: "",
+    instagram: "@larif95",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
+    foto: "",
+  },
+  {
+    dataHora: "28/08/2024 10:57:24",
+    email: "diogenes23@hotmail.com",
+    nome: "Jaime",
+    temporadas: ["2011 - Sussurros"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "",
+    talEPaRepresentacao: "",
+    conselho: "",
+    ajudaParaONG: "",
+    instagram: "",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
+    foto: "",
+  },
+  {
+    dataHora: "28/08/2024 10:06:19",
+    email: "carolalcerito@gmail.com",
+    nome: "Caroline Rios Alcerito",
+    temporadas: [
+      "2010 - Voando para o Alto",
+      "2009 - Até onde a vista alcança",
+      "2008 - O que eu vi, o que nós veremos",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Os conteúdos são legais, mas principalmente nesse ano eu investiria em tbts, com fotos antigas, vcs podem até abrir um espaço pra quem tem alguma foto enviar",
+    talEPaRepresentacao:
+      "O tal e pá foi muito importante pra me entender como pessoa e na formação dos meu valores de hoje.",
+    conselho:
+      "Façam muitas amizades, aproveitem o tempo e as experiências que estão passando aí, porque passa rápido rs.",
+    ajudaParaONG: "Posso contribuir fazendo algumas peças pras redes sociais.",
+    instagram: "@carolalcerito",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
+    foto: "",
+  },
   {
     dataHora: "20/08/2024 15:30:26",
     email: "rebecabariao@gmail.com",
@@ -433,6 +686,26 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "Sem esse grupo, eu não seria a pessoa que sou hoje.",
+    foto: "",
+  },
+  /* 1999 - 2000 */
+  {
+    dataHora: "28/08/2024 11:41:28",
+    email: "lavanessaf@gmail.com",
+    nome: "Vanessa Freitas",
+    temporadas: [
+      "2000 - Muito barulho por nada",
+      "1999 - Nos telhados da cidade",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Show",
+    talEPaRepresentacao: "Descoberta",
+    conselho: "Se jogue de corpo e alma",
+    ajudaParaONG: "",
+    instagram: "@dravanessafreitas",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
     foto: "",
   },
 ];

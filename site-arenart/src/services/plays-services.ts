@@ -65,7 +65,7 @@ export const playsSeason: PlaysDTO[] = [
     year: ["2016"],
     shortDescription:
       "Em novembro, a Cia Tal&Pá apresenta o entreato ‘Chão Brasil’, uma ciranda colorida que traz as expectativas da trupe sobre o país e o próprio futuro. Inspirado no livro ‘Quem roubou o meu futuro?’, de Sylvia Orthof, é a primeira aventura do Tal&Pá em espaço aberto. Curtíssima temporada.",
-    path: "/temporadas/em-construcao",
+    path: "/temporadas/chao-brasil-2016",
   },
 
   {
@@ -75,7 +75,7 @@ export const playsSeason: PlaysDTO[] = [
     year: ["2015", "2016"],
     shortDescription:
       "Quem pode garantir quem é louco e quem é são nesse mundo? \nAcreditar-se absolutamente lúcido, em qualquer circunstância, já não é um traço de desequilíbrio? E se a loucura for apenas um estado de espírito? Perdido num corredor entre a realidade e o delírio, Zach precisa descobrir o caminho para reencontrar a si mesmo. INSANE é o mais novo trabalho da Cia. de Teatro Tal&Pá, inspirado nos livros ‘As vantagens de ser invisível’, de Stephen Chbosky e ‘Garota Interrompida’, de Susanna Kaysen, sobre pessoas em busca do seu lugar no mundo.",
-    path: "/temporadas/em-construcao",
+    path: "/temporadas/insane",
   },
   {
     name: "As Vozes de Joana",

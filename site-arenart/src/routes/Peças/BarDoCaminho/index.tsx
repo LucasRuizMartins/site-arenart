@@ -188,7 +188,7 @@ export function BarDoCaminho() {
       <Row>
         <Col className="text-center mb-4">
           <div className="">
-            <h3>Elenco</h3>
+            <h3>Elenco - Bar do caminho</h3>
           </div>
         </Col>
       </Row>

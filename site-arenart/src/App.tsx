@@ -15,6 +15,8 @@ import BarDoCaminho from "./routes/Peças/BarDoCaminho";
 import NosTelhados from "./routes/Peças/NosTelhados";
 import EmConstrucao from "./routes/Peças/EmConstrucao";
 import Clarao from "./routes/Peças/Clarao";
+import ChaoBrasil2016 from "./routes/Peças/ChaoBrasil2016";
+import Insane from "./routes/Peças/Insane";
 
 function App() {
   return (
@@ -30,7 +32,10 @@ function App() {
         <Route path="/temporadas/bar-do-caminho" element={<BarDoCaminho />} />
         <Route path="/temporadas/nos-telhados-da-cidade" element={<NosTelhados />} />
         <Route path="/temporadas/clarao-nas-estrelas" element={<Clarao />} />
+        <Route path="/temporadas/chao-brasil-2016" element={<ChaoBrasil2016/>} />
+        <Route path="/temporadas/insane" element={<Insane/>} />
         <Route path="/temporadas/em-construcao" element={<EmConstrucao />} />
+
       </Routes>
     </Router>
   );

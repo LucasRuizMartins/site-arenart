@@ -98,8 +98,24 @@ export function Clarao() {
             </Col>
 
             <Col xs={12} md={6} className="mt-5 order-2 order-md-1 order-xl-1">
-              <p className="mt-4">{"..."}</p>
-              <p className="mt-4">{"..."}</p>
+              <p className="mt-4">
+                {" "}
+                Identidade e Autoconhecimento: conheça sua própria história para
+                entender quem você é, as vezes nossas "maldições" antecedem
+                nosso nascimento
+              </p>
+              <p className="mt-4">
+                Amor e Sacrifício: O amor é apresentado como uma força curativa,
+                mas também complexa e perigosa.O Amor que cura pode também
+                causar dor...
+              </p>
+              <p className="mt-4">
+                Destino e Maldição: As maldições que temos que lidar em nossa
+                vida, muitas vezes não são mágias sobrenaturais, as vezes essas
+                maldições podem ser simplesmente o peso das expectativas e dos
+                desejos que outras pessoas depositaram em nós e isso pode nos
+                moldar e transformar nossa vida.
+              </p>
               <p className="mt-4"></p>
             </Col>
           </Row>
@@ -113,9 +129,7 @@ export function Clarao() {
           </Row>
           <Row className="">
             <Col xs={12} md={12} xl={12} className="mt-5">
-              <p className="">
-              {"..."}
-              </p>
+              <p className="">{"..."}</p>
             </Col>
             <Col xs={12} md={12} xl={12} className="mt-5">
               <Image
@@ -142,7 +156,7 @@ export function Clarao() {
       <Row>
         <Col className="text-center mb-4">
           <div className="">
-            <h3>Elenco</h3>
+            <h3>Elenco - Clarão nas estrelas</h3>
           </div>
         </Col>
       </Row>

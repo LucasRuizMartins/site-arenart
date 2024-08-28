@@ -12,19 +12,16 @@ import onda from "../../assets/util/onda-tep.svg";
 import logo from "../../assets/logo-talepa.png";
 import RevealText from "../../components/Utils/RevealText";
 import OverlayBtn from "../../components/Utils/OverlayBtn";
-import returnIcon from "../../assets/util/return.svg"
+import returnIcon from "../../assets/util/return.svg";
 export function About() {
   return (
     <>
-
-
       <section className="first-part">
-      <Nav>
-        <Nav.Link href="/" >
-        <Image className="botao-voltar" src={returnIcon}></Image>
-  
-        </Nav.Link>
-      </Nav>
+        <Nav>
+          <Nav.Link href="/">
+            <Image className="botao-voltar" src={returnIcon}></Image>
+          </Nav.Link>
+        </Nav>
         <Container>
           <RevealText>
             <h2 className="text-review">é possível mudar o mundo?</h2>

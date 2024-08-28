@@ -1,0 +1,69 @@
+.elenco-desc {
+  margin-top: -100px;
+  color: black;
+}
+.elenco-chaobrasil {
+  margin-top: -100px;
+}
+.backgroun-chaobrasil {
+  background-color: #022777;
+  color: aliceblue;
+}
+
+.container-wave {
+  position: relative;
+  height: 100vh;
+}
+.wave-chaobrasil {
+  height: 500px;
+}
+.background-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.foto-chaobrasil {
+  margin-left: 20px;
+
+  max-height: 350px;
+  min-height: 350px;
+}
+.row-content {
+  position: relative;
+  z-index: 1;
+}
+.secound-part-chao-brasil {
+  margin-top: -210px;
+}
+
+@media (min-width: 768px) {
+  .elenco-desc {
+    font-size: 30px;
+    margin-top: -555px;
+    font-weight: 700;
+    color: rgb(0, 145, 255);
+  }
+  .elenco-chaobrasil {
+    margin-top: -500px;
+  }
+  .foto-chaobrasil {
+    max-height: 500px;
+    min-height: 500px;
+  }
+  .secound-part-chao-brasil {
+    margin-top: -430px;
+  }
+}
+
+@media (max-width: 1268px) {
+  .elenco-desc {
+
+    margin-top: -90px;
+  }
+  .elenco-chaobrasil {
+    margin-top: -60px;
+  }
+}

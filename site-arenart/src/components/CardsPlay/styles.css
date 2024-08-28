@@ -1,7 +1,5 @@
-
 /* Estilo inicial para imagens: preto e branco */
 .img-cards-play {
-
   max-height: 550px;
   filter: grayscale(100%);
   transition: filter 0.3s ease, transform 0.3s ease;
@@ -15,7 +13,6 @@
   transform: scale(1.03);
   box-shadow: 1px 5px 10px 0px black;
 }
-
 
 .cardsplay-textarea {
   margin-top: 25px;

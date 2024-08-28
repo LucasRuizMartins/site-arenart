@@ -124,7 +124,7 @@ export function TempusFugit() {
       <Row>
         <Col className="text-center mb-4">
           <div className="elenco-desc-">
-            <h3>Elenco</h3>
+            <h3>Elenco - Tempus Fugit</h3>
           </div>
         </Col>
       </Row>
