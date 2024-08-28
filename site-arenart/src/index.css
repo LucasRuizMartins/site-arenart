@@ -1,66 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap");
 
 :root {
-    --arenart-color-bg-primary: #c2c2c2;
-    --arenart-color-bg-secondary: #E67926;
-    --arenart-color-bg-secondary-hover: #cc6920;
-    --arenart-color-bg-tertiary: #002FBB;
-    --arenart-color-bg-tertiary-hover: #012181;
-    
-    --arenart-color-card-bg: #fff;
-    --arenart-color-card-border: #d9d9d9;
-  
-    --arenart-color-btn-primary: #3483fa;
-    --arenart-color-btn-inverse: #fff;
-  
-    --arenart-color-font-primary: #636363;
-    --arenart-color-font-secondary: #fff;
-    --arenart-color-font-tertiary: #C2C2C2;
-    --arenart-color-font-quaternary: #000;
-    --arenart-color-font-quintenary: #55bc04;
-  }
+  --arenart-color-bg-primary: #c2c2c2;
+  --arenart-color-bg-secondary: #e67926;
+  --arenart-color-bg-secondary-hover: #cc6920;
+  --arenart-color-bg-tertiary: #002fbb;
+  --arenart-color-bg-tertiary-hover: #012181;
 
+  --arenart-color-card-bg: #fff;
+  --arenart-color-card-border: #d9d9d9;
 
-  *{font-family: 'Figtree', sans-serif;}
+  --arenart-color-btn-primary: #3483fa;
+  --arenart-color-btn-inverse: #fff;
 
-  .arenart-btn{
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    height: 50px;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  .principal-btn {
-    background-color:  var(--arenart-color-bg-secondary);
-    border-color: #000 ;
+  --arenart-color-font-primary: #636363;
+  --arenart-color-font-secondary: #fff;
+  --arenart-color-font-tertiary: #c2c2c2;
+  --arenart-color-font-quaternary: #000;
+  --arenart-color-font-quintenary: #55bc04;
+}
+
+* {
+  font-family: "Figtree", sans-serif;
+}
+
+.arenart-btn {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.principal-btn {
+  background-color: var(--arenart-color-bg-secondary);
+  border-color: #000;
 }
 
 .principal-btn:hover {
-    background-color: var(--arenart-color-bg-secondary-hover);
-    border-color: #000 ;
+  background-color: var(--arenart-color-bg-secondary-hover);
+  border-color: #000;
 }
 
 .principal-btn:active {
-    background-color: #943e00;
-    border-color: #000 ;
+  background-color: #943e00;
+  border-color: #000;
 }
 
 .secondary-btn {
   color: #fff;
-  background-color:  var(--arenart-color-bg-tertiary);;
-  border-color: #000 ;
+  background-color: var(--arenart-color-bg-tertiary);
+  border-color: #000;
 }
 
 .secondary-btn:hover {
   background-color: var(--arenart-color-bg-tertiary-hover);
-  border-color: #000 ;
+  border-color: #000;
 }
 
 .secondary-btn:active {
   background-color: #0f0050;
-  border-color: #000 ;
+  border-color: #000;
 }
+
+

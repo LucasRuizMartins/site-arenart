@@ -1,3 +1,23 @@
+.botao-voltar {
+  position: fixed;
+  margin-top: -20px;
+  margin-left: -32px;
+  height: 50px;
+  width: 60px;
+  padding: 10px;
+  background-color: #ffffff7f;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.botao-voltar:hover {
+  background-color: #fafafa;
+}
+
 .first-part {
   height: 4410px;
   padding: 20px;
@@ -154,7 +174,9 @@
   border: 15px solid transparent;
   border-right-color: white;
 }
-.logo-tep{width: 200px;}
+.logo-tep {
+  width: 200px;
+}
 
 @media screen and (max-width: 768px) {
   .timeline-item {
@@ -183,11 +205,11 @@
     border-color: transparent transparent transparent rgba(255, 255, 255, 0.94);
   }
 
-  .center{
+  .center {
     margin: 0 auto;
     width: 100%;
   }
-  .tempus-fugit-text{
+  .tempus-fugit-text {
     font-weight: 700;
     text-align: center;
     font-size: 30px;

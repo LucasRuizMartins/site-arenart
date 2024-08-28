@@ -3,6 +3,7 @@ import imagemSobre from "../../assets/grito-tep.jpg";
 import { Col, Row } from "react-bootstrap";
 import "./styles.css";
 import Image from "react-bootstrap/Image";
+import { Link } from "react-router-dom";
 
 function BodyFirstPart() {
   return (
@@ -77,10 +78,12 @@ function BodyFirstPart() {
         </Row>
         <Row>
           <Col>
+          <Link to={"/quem-somos"}> 
             <div className="secondary-btn arenart-btn ms-3">
               {" "}
               conheça o Tal&Pá
             </div>
+            </Link>
           </Col>
         </Row>
       </div>

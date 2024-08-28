@@ -1,0 +1,14 @@
+.shape-fill {
+  fill: #273036;
+}
+.mtt-1 {
+  margin-top: -15px;
+}
+
+.background-nostelhados {
+  background-color: #273036;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+}

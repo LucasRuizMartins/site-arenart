@@ -117,7 +117,7 @@ export const playsSeason: ActorInfoDTO[] = [
     facebook: "Antônio Kinho",
     recadinho:
       "Bem, eu sinto muita falta de tudo isso, de festivais, de me apresentar, de ouvir os aplausos depois da casa apresentação e sentir que o trabalho deu tudo certo. Acredito que foi uma das épocas que eu mais fiquei feliz em viver. Obrigado por tudo isso.",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/kinho.jpeg?raw=true",
   },
   {
     dataHora: "16/08/2024 10:39:04",
@@ -157,7 +157,7 @@ export const playsSeason: ActorInfoDTO[] = [
     facebook: "",
     recadinho:
       "Quando eu entrei no Tal&Pá estava passando por momentos difíceis, e foi esse grupo de teatro que mudou muita parte disso, espero olhar no futuro e sentir orgulho de ter feito parte disso!",
-    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit%20-%20Tempus%20Fugit/PJ.jpeg?raw=true",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/PJ.jpeg?raw=true",
   },
   {
     dataHora: "16/08/2024 22:15:35",
@@ -201,6 +201,167 @@ export const playsSeason: ActorInfoDTO[] = [
     recadinho: "",
     foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/ju.jpeg?raw=true",
   },
+  {
+    dataHora: "20/08/2024 19:31:29",
+    email: "cecibds514@gmail.com",
+    nome: "Ceci Bezerra",
+    temporadas: ["2024 - Tempus Fugit"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Gosto das postagens e acho muito criativo!",
+    talEPaRepresentacao:
+      "O Tal&Pá veio até mim em um momento muito difícil, então, além de representar aquela luz no fim do túnel, o Tal&Pá é também a representação de um sonho realizado. No Tal&Pá eu me encontro, me desencontro e me reencontro. Aproveito cada momento o máximo que posso, é incrível demais fazer parte dessa família que me inspira a cada reunião, me ensina sobre a vida, sobre a arte e sobre o mundo. Eu sou extremamente grata pela oportunidade de participar desse projeto incrível. Levarei com muito carinho essa experiência por minha vida inteira.",
+    conselho:
+      "Aproveite tudo o que tem para aproveitar, absorva conhecimento, solte a criatividade, se jogue, viva a arte!! E acima de tudo: Seja você mesmo. O Tal&Pá é um lugar seguro, confortável e repleto de pessoas incríveis que com certeza só vieram para agregar. Então, o que eu tenho a dizer é: aproveite e viva os momentos incríveis como se fosse sua última estação, porque aqui no Tal&Pá o tempo voa!",
+    ajudaParaONG: "",
+    instagram: "",
+    linkedin: "",
+    facebook: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/CECI.jpg?raw=true",
+  },
+  {
+    dataHora: "21/08/2024 03:11:32",
+    email: "daniel.rochadias@hotmail.com",
+    nome: "Daniel Dias",
+    temporadas: ["2024 - Tempus Fugit", "2023 - Chão Brasil", "2015 - Insane"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Tenho curtido bastante o conteúdo compartilhado na página. É divertido e sempre dá aquela vontade de saber mais...",
+    talEPaRepresentacao:
+      "Desde o meu primeiro ano, o grupo se tornou mais que um espaço de atividades artísticas – virou um lar, onde eu encontrei não só um ambiente de pertencimento e colaboração, mas também um lugar onde eu pude me desenvolver como pessoa. Acredito que minha trajetória no grupo foi um presente valioso, algo que me ajudou a construir a base de quem eu sou hoje. Sinto uma gratidão imensa por ter tido a chance de fazer parte do Tal&Pá, tanto durante a minha juventude quanto na minha vida adulta. Foi aqui que encontrei o senso de pertencimento que, por vezes, faltou em outras áreas da minha vida. Hoje, faço questão de retribuir, dando o meu melhor para contribuir com o crescimento do grupo e tornar esse espaço especial para todos, assim como foi para mim.",
+    conselho:
+      "É uma grande oportunidade de diversos tipos de aprendizado. Estejam abertos, saibam que questionar é bom, e pode ou não trazer algo novo. Aqui, vocês provavelmente vão eternizar memórias que ainda nem conseguem imaginar.",
+    ajudaParaONG:
+      "Continuar dedicando meu tempo ao projeto, buscando maneiras de aumentar nossa visibilidade e mantendo-me aberto a novas formas de colaborar.",
+    instagram: "@danlrdias",
+    linkedin: "",
+    facebook: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/dani.jpg?raw=true",
+  },
+  {
+    dataHora: "21/08/2024 06:42:04",
+    email: "larabostica@gmail.com",
+    nome: "Lara Ruiz",
+    temporadas: ["2024 - Tempus Fugit", "2023 - Chão Brasil"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Conteúdos legais, compartilhando nosso trabalho de uma maneira bem resumida, mas sempre demonstrando nosso esforço.",
+    talEPaRepresentacao:
+      "Representa meu maior contato com a arte, literalmente. Desde pequena tem sido meu ponto de encontro com o mundo artístico. É o lugar onde sou livre pra experimentar e me expressar como quiser.",
+    conselho:
+      "Empenhem-se e aproveitem! Se joguem no personagem, se joguem na cena e se divirtam! Perder tempo se preocupando em fazer feio e errar só vai fazer com que se arrependa futuramente, experiência própria! Somos todos humanos, erramos até acertar e é assim que se aprende.",
+    ajudaParaONG: "Em geral, divulgando o trabalho.",
+    instagram: "@lala._ruiz_.s",
+    linkedin: "",
+    facebook: "",
+    recadinho: "Aqui foi o lugar onde aprendi que sentir é a chave para criar.",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/lara.jpeg?raw=true",
+  },
+  {
+    dataHora: "21/08/2024 10:52:07",
+    email: "paulovolpato200@gmail.com",
+    nome: "Paulo Volpato",
+    temporadas: ["2023 - Chão Brasil", "2022 - Bar do Caminho"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "maravilhoso! uma forma de unir a história da companhia com a modernidade. legal também como o elenco gosta de fomentar as redes.",
+    talEPaRepresentacao:
+      "um divisor de águas. me abriu portas externas e internas, foi uma forma de descobrir uma pessoa que estava presa atrás da timidez. além das realizações de sonhos e metas que consegui alcançar graças ao Tal&Pá.",
+    conselho: "peço para que se entreguem de corpo e alma.",
+    ajudaParaONG: "sim! (já ajudo kkk)",
+    instagram: "@volpato_",
+    linkedin: "",
+    facebook: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2023-chao-brasil/chaobrasil.jpg?raw=true",
+  },
+  {
+    dataHora: "21/08/2024 11:01:26",
+    email: "rafanogueira8374@gmail.com",
+    nome: "Raffael",
+    temporadas: ["2024 - Tempus Fugit", "2023 - Chão Brasil"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "incríveis!",
+    talEPaRepresentacao: "Descobertas",
+    conselho: "se joguem nessa experiência, é incrível!",
+    ajudaParaONG: "creio que sim",
+    instagram: "@raffwlas",
+    linkedin: "",
+    facebook: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/arauto-mambembe/raffael.png?raw=true",
+  },
+  {
+    dataHora: "22/08/2024 09:39:30",
+    email: "naylla.tarcha@gmail.com",
+    nome: "Naylla tarcha",
+    temporadas: ["2024 - Tempus Fugit", "2023 - Chão Brasil"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Acho divertidas",
+    talEPaRepresentacao:
+      "O tal e pá é um lugar onde eu aprendi muito e amadureci muito e ainda aprendo muito, o tal e pá representa uma fase muito boa na minha vida e é uma coisa muito importante pra mim.",
+    conselho: "",
+    ajudaParaONG: "Nayllatarcha1",
+    instagram: "",
+    linkedin: "",
+    facebook: "",
+    recadinho: "",
+    foto: "",
+  },
+  {
+    dataHora: "22/08/2024 12:50:42",
+    email: "izabellacarla08@gmail.com",
+    nome: "Izabella/Yuzi",
+    temporadas: ["2024 - Tempus Fugit"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Ainda sou nova, mas eu adoro o que fazem 🥰",
+    talEPaRepresentacao:
+      "Como sou nova vou falar o que já tenho em mente, bem o Tal & Pá na minha visão são maravilhosos, incríveis, gentis, e acolhedores. Quando entrei, eles já foram cumprimentando e nos fazendo tirar a timidez. Ainda tenho mais a falar, mas já falei um pouco, e tipo, a aura que trazem é boa e calorosa.",
+    conselho: "Mantenha-se sempre alegres, confiantes, e determinados! 🥰",
+    ajudaParaONG: "Acho que não😅😓",
+    instagram: "star.bellasx",
+    linkedin: "Não tenho",
+    facebook: "Não tenho",
+    recadinho: "Não sei ainda 😅",
+    foto: "",
+  },
+  {
+    dataHora: "24/08/2024 20:21:40",
+    email: "mdxjdshs@gmail.com",
+    nome: "Guilherme Manfredi",
+    temporadas: ["2024 - Tempus Fugit", "2023 - Chão Brasil"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Bacana",
+    talEPaRepresentacao:
+      "Representou um recomeço, onde eu me reencontrei e consegui evoluir, tanto artisticamente quanto como indivíduo.",
+    conselho:
+      "Se joguem de cabeça sem medo do que pensarem de vocês, a vida é uma só e a arte é uma maravilha que merece ser vivida.",
+    ajudaParaONG:
+      "Participando em divulgações dos projetos e participando de possíveis rifas e modos de arrecadação.",
+    instagram: "@guilherme.manfredi",
+    linkedin: "Guilherme Manfredi",
+    facebook: "",
+    recadinho: "Quero voltar nesse site daqui alguns anos e ver o que mudou.",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao-brasil%20-%20Tempus%20Fugit/guilherme.png?raw=true",
+  },
+  {
+    dataHora: "27/08/2024 17:41:41",
+    email: "bheatryzbriga0611@gmail.com",
+    nome: "Bya Briga",
+    temporadas: ["2024 - Tempus Fugit"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Tenho gostado bastante",
+    talEPaRepresentacao: "",
+    conselho: "Que aproveite muito",
+    ajudaParaONG: "Com a divulgação das atividades do grupo",
+    instagram: "@bhtzbrg",
+    linkedin: "",
+    facebook: "",
+    recadinho: "",
+    foto: ""
+},
+  /* 2010 - 2014 */
   {
     dataHora: "20/08/2024 15:30:26",
     email: "rebecabariao@gmail.com",
@@ -246,6 +407,32 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "",
+    foto: "",
+  },
+
+  /* 2003 - 2004 */
+
+  {
+    dataHora: "27/08/2024 10:09:15",
+    email: "roberta.quirinop@gmail.com",
+    nome: "Roberta Quirino",
+    temporadas: [
+      "2011 - Sussurros",
+      "2010 - Voando para o Alto",
+      "2004 - Arauto da Liberdade",
+      "2003 - O Mambembe",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "",
+    talEPaRepresentacao:
+      "Um espaço de liberdade, comunidade e autoconhecimento.",
+    conselho:
+      "Vivam essa experiência ao máximo. Ela marcará a vida de cada um/a de vocês.",
+    ajudaParaONG: "",
+    instagram: "@robsquirino",
+    linkedin: "",
+    facebook: "",
+    recadinho: "Sem esse grupo, eu não seria a pessoa que sou hoje.",
     foto: "",
   },
 ];

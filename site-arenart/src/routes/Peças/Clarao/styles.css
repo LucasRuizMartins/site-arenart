@@ -1,0 +1,14 @@
+.shape-fill {
+  fill: #000;
+}
+.mtt-1 {
+  margin-top: -15px;
+}
+
+.background-clarao {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+}

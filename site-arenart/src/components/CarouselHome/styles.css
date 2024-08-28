@@ -1,5 +1,9 @@
+.flex-center {
+  align-items: center;
+}
 
-
-.flex-center{
-    align-items: center;
+.link-carousel {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
