@@ -1,0 +1,40 @@
+.background-top-ultimo-carro {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+
+.background-ultimo-carro {
+  height: 100%;
+  z-index: 2;
+  background: rgb(0, 182, 201);
+  background: radial-gradient(
+    circle,
+    rgb(0, 0, 0) 48%,
+    rgb(220, 220, 220) 100%
+  );
+}
+
+.background-ultimo-carro-2 {
+  background-image: url("../../../assets/pecas/ultimo-carro/ultimoCarro2.png");
+  margin-top: -200px;
+  z-index: 5;
+}
+.ocean-ultimo-carro {
+  margin: 20px;
+  background-image: url("../../../assets/pecas/zumbi/mar.png");
+  background-repeat: no-repeat;
+}
+
+.ultimo-carro-titulo {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 104px;
+}
+
+@media (max-width: 768px) {
+  .ultimo-carro-titulo {
+    font-size: 54px;
+  }
+}

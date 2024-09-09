@@ -1,0 +1,23 @@
+.background-top-zumbi {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1220px;
+}
+
+.background-zumbi {
+  background-image: url("../../../assets/pecas/zumbi/bg-zumbi.jpg");
+  z-index: 6;
+  position: relative;
+}
+
+.background-zumbi-2 {
+  background-image: url("../../../assets/pecas/zumbi/bg-zumbi-2.jpg");
+  margin-top: -200px;
+  z-index: 5;
+}
+.ocean-zumbi {
+  margin: 20px;
+  background-image: url("../../../assets/pecas/zumbi/mar.png");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,45 @@
+.first-bg-longo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.longo-top {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 2;
+}
+
+.background-longo-caminho {
+  background-color: #002fbb;
+  color: #fff;
+}
+.first-bg-longo-2 {
+  position: relative;
+  margin-top: -50px;
+  z-index: 2;
+}
+
+.img-longo {
+  z-index: 3;
+}
+
+.title-longo {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 250px;
+  text-shadow: 5px 5px 5px black;
+  z-index: 3;
+}
+
+@media (min-width: 1020px) {
+  .first-bg-longo-2 {
+    margin-top: -150px;
+  }
+  .title-longo {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,24 @@
+.background-top-danton {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 1220px;
+}
+.danton-title {
+  font-size: 25px;
+  text-shadow: 1px 4px 4px rgb(184, 184, 184);
+}
+.background-danton {
+}
+
+@media (min-width: 768px) {
+  .danton-title {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .danton-title {
+    font-size: 50px;
+  }
+}

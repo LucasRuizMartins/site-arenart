@@ -10,8 +10,11 @@
 /* Estilo para hover no contêiner pai */
 .cards-play:hover .img-cards-play {
   filter: grayscale(0%);
-  transform: scale(1.03);
+  transform: scale(0.98);
+ 
   box-shadow: 1px 5px 10px 0px black;
+ 
+
 }
 
 .cardsplay-textarea {

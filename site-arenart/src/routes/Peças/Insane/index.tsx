@@ -100,7 +100,11 @@ export function Insane() {
           </Row>
         </Container>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg
+        className="divisor"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
         <path
           fill="#000000"
           fill-opacity="1"
@@ -116,7 +120,7 @@ export function Insane() {
           ></Col>
         </Row>
         <Row className="">
-          <Col xs={6} md={6} xl={6} className="mt-5">
+          <Col xs={12} md={6} xl={6} className="mt-5">
             <p className="font-monospace">
               Construímos a narrativa a partir de duas histórias dentro dessa
               temática e que geraram filmes de sucesso no cinema: “As vantagens
@@ -137,7 +141,7 @@ export function Insane() {
               linhas espirais, arrematando o cenário perturbador.
             </p>
           </Col>
-          <Col xs={6} md={6} xl={6} className="mt-5">
+          <Col xs={12} md={6} xl={6} className="mt-5">
             <Image
               src={
                 "https://github.com/LucasRuizMartins/midia-arenart/blob/main/temporadas/2016-insane/beijo.jpg?raw=true"
@@ -147,8 +151,6 @@ export function Insane() {
           </Col>
         </Row>
       </Container>
-
-
 
       <Row>
         <Col className="text-center mb-5 mt-5">

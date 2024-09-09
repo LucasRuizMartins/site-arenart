@@ -110,7 +110,6 @@ export function ChaoBrasil2016() {
               stroke-width="0"
               fill="url(#gradient)"
               fill-opacity="1"
-              
             ></path>
           </svg>
           <Image
@@ -208,6 +207,7 @@ export function ChaoBrasil2016() {
           id="svg"
           viewBox="0 0 1440 490"
           xmlns="http://www.w3.org/2000/svg"
+          className="divisor"
         >
           <defs>
             <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">

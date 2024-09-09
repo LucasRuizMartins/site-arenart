@@ -1,0 +1,32 @@
+.motorboy-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../assets/pecas/motorboy/BG-Motorboy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.motorboy-top img {
+
+  max-width: 1020px;
+}
+
+.section-area {
+
+}
+
+.section-area img {
+  width: 500px;
+}
+.site-area-motorboy {
+  color: #fff;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    354deg,
+    rgba(0, 0, 0, 1) 48%,
+    rgba(61, 61, 61, 0.9122023809523809) 100%
+  );
+}
+ 

@@ -16,55 +16,56 @@ import returnIcon from "../../assets/util/return.svg";
 export function About() {
   return (
     <>
-      <section className="first-part">
-        <Nav>
-          <Nav.Link href="/">
-            <Image className="botao-voltar" src={returnIcon}></Image>
-          </Nav.Link>
-        </Nav>
-        <Container>
-          <RevealText>
-            <h2 className="text-review">é possível mudar o mundo?</h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review">Talvez não...</h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review">Mas podemos mudar as pessoas ! </h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review">
-              E torcer para elas mudarem o mundo ...
-            </h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review">Aos poucos ... </h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review">Nossa história começa a 30 anos </h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review ">Com um Grupo de Jovens </h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review ">
-              {" "}
-              E trinta anos depois, quantos grupos existiram?{" "}
-            </h2>
-          </RevealText>
-          <RevealText>
-            <h2 className="text-review  ">
-              {" "}
-              Desejamos acreditar que ainda somos um só grupo
-            </h2>
-          </RevealText>
-        </Container>
-
-        <div className="image-review">
-          <RevealText>
-            <Image src={logo} fluid />
-          </RevealText>
-        </div>
+      <section className="about-section">
+        <section className="first-part">
+          <Nav>
+            <Nav.Link href="/">
+              <Image className="botao-voltar" src={returnIcon}></Image>
+            </Nav.Link>
+          </Nav>
+          <Container style={{ overflow: "hidden" }}>
+            <RevealText>
+              <h2 className="text-review">é possível mudar o mundo?</h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review">Talvez não...</h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review">Mas podemos mudar as pessoas ! </h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review">
+                E torcer para elas mudarem o mundo ...
+              </h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review">Aos poucos ... </h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review">Nossa história começa a 30 anos </h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review ">Com um Grupo de Jovens </h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review ">
+                {" "}
+                E trinta anos depois, quantos grupos existiram?{" "}
+              </h2>
+            </RevealText>
+            <RevealText>
+              <h2 className="text-review  ">
+                {" "}
+                Desejamos acreditar que ainda somos um só grupo
+              </h2>
+            </RevealText>
+          </Container>
+          <div className="image-review">
+            <RevealText>
+              <Image src={logo} fluid />
+            </RevealText>
+          </div>{" "}
+        </section>{" "}
       </section>
       <div>
         <Image className="wave" src={onda} fluid />
@@ -423,7 +424,7 @@ export function About() {
                     alt="Evento 3"
                     className="timeline-img"
                   />
-                  <p>2003 - O Mambemte</p>
+                  <p>2003 - O Mambembe</p>
                 </div>
               </div>
 

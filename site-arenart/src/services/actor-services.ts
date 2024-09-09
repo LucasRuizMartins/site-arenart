@@ -554,7 +554,103 @@ export const playsSeason: ActorInfoDTO[] = [
     recadinho: "",
     foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/chao%20brasil-%20clarao%20-%20nos%20telhados/leticia-laham.png?raw=true",
   },
+  {
+    dataHora: "28/08/2024 21:24:43",
+    email: "fernanda.reis15@hotmail.com",
+    nome: "Fer Reis",
+    temporadas: [
+      "2016 - Chão Brasil",
+      "2015 - Insane",
+      "2014 - As vozes de Joana",
+      "2012 - Arena Conta Danton",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Como ex-integrante da Cia, acho incrível poder acompanhar o andamento de tudo e poder relembrar momentos de nostalgia.",
+    talEPaRepresentacao:
+      '"Já fazem 12 anos desde o primeiro ano que ingressei na companhia de teatro Tal&Pá. E ao longo desse tempo, sempre vivo de eternas nostalgias. Lembro da minha trajetória dentro do Tal&Pá com muito amor, carinho, e um aperto no coração decorrentes de boas saudades. Sempre comento com pessoas do meu ciclo, que o Tal&Pá mudou a minha vida. Desde quando conheci essa companhia incrível, eu pude compartilhar e viver momentos lindos de amor, amizade, parceria, empatia e trabalho em equipe. Onde pude evoluir como ser humano, construindo parte da minha personalidade. Foram lindos anos com troca de experiências e muito conhecimento, algo que agregou positivamente na minha vida, em questões de comunicação e entender que podemos ser livres para sermos o que quisermos em qualquer lugar. Que a mente e o corpo têm poderes extraordinários quando imergimos no mundo do teatro, e a energia da arena Tal&Pá é algo indescritível. Sou eternamente grata por ter vivenciado essa experiência por 4 anos da minha vida, e hoje só me resta saudades… E se eu pudesse voltar no tempo, eu voltaria exatamente ali, onde tudo começou…"',
+    conselho:
+      '"Meu conselho para os novos integrantes é viver intensamente cada momento, e aproveitar todas as oportunidades. E absorver todo o conhecimento e experiência que a Val, Sol, Pati compartilham. É algo que vai ser carregado pelo resto da vida. Pois quando chegar a hora de acabar, vocês vão querer viver tudo novamente, mas o tempo vai ter passado. Então vivam e se entreguem 100%."',
+    ajudaParaONG:
+      "Divulgação, marketing, atualizações/publicações constantes das páginas, para atingir horizontes de pessoas. Afim de conseguir algum patrocínio ou parceria.",
+    instagram: "f.sreis",
+    facebook: "",
+    linkedin:
+      "https://www.linkedin.com/in/fernanda-r-530ba2169?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    recadinho: "Estou morrendo de saudades de tudo e todos.",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/fernanda.jpg?raw=true",
+  },
   /*----------------------- 2010 -2011- 2012- 2013- 2014 */
+  {
+    dataHora: "28/08/2024 21:43:50",
+    email: "somoraandre@hotmail.com",
+    nome: "Somora",
+    temporadas: [
+      "2015 - Insane",
+      "2014 - As vozes de Joana",
+      "2012 - Arena Conta Danton",
+      "2011 - Sussurros",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Muito interessante e criativo, principalmente com as postagens mais recentes sobre as peças!",
+    talEPaRepresentacao:
+      "O Tal&Pá foi, para mim, o que moldou minha percepção do mundo e meu desenvolvimento pessoal e profissional, tanto por conta da filosofia de altruísmo, trabalho em equipe e companheirismo da Companhia quanto pelas pessoas e vivências que adquiri pelo caminho.",
+    conselho:
+      "Compreendam e internalizem a mentalidade de que todos somos parte imprescindível dos projetos que fazemos, tratem-se com respeito e deem valor e significado a tudo que se faz no teatro que agregue à peça e ao seu desenvolvimento artístico.",
+    ajudaParaONG:
+      "Já faço parte da ONG e estou sempre disponível para participar de ensaios e oficinas, dada minha formação!",
+    instagram: "@thesomora",
+    facebook: "",
+    linkedin:
+      "https://www.linkedin.com/in/somora?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/somora.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 18:48:16",
+    email: "Natchuppy@gmail.com",
+    nome: "Natalia Santos",
+    temporadas: [
+      "2015 - Insane",
+      "2014 - As vozes de Joana",
+      "2012 - Arena Conta Danton",
+      "2011 - Sussurros",
+      "Rei leao",
+      "Um parque para monstros",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Ótimo, amo relembrar e acompanhar essa história.",
+    talEPaRepresentacao: "Família. União. Compromisso. Amor.",
+    conselho: "Se permitir sentir",
+    ajudaParaONG: "Sim",
+    instagram: "@na.tchuppy",
+    facebook: "",
+    linkedin: "",
+    recadinho:
+      "Família. Como eu amo vocês. Todos que fazem parte desse projeto estão no meu coração, de geração em geração.",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/Nat%20Cristina.jpg?raw=true",
+  },
+  {
+    dataHora: "28/08/2024 20:04:41",
+    email: "nayrabeatrizfgpereira@gmail.com",
+    nome: "Nayra Felizola",
+    temporadas: ["2014 - As vozes de Joana", "2012 - Arena Conta Danton"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Acho que são importantes para que a comunidade conheça os trabalhos do grupo e também para que haja divulgação, pois é um trabalho extremamente importante para os jovens, e acredito que através das redes sociais é que alcance esse público.",
+    talEPaRepresentacao:
+      "Ele representou muita coisa, e ajudou em minha formação como pessoa. Eu brinco que foi onde comecei a me tornar 'gente'. Kkkkkkk E me instruiu de forma acadêmica, pessoal e até mesmo profissional, uso até hoje algumas técnicas que aprendi fazendo teatro.",
+    conselho:
+      "Aproveitem muito o tempo no Tal&Pá, pois depois de toda essa loucura de oficinas, ensaios, montagem e espetáculo, restará somente saudades!!!",
+    ajudaParaONG:
+      "Consigo ajudar com a divulgação, até mesmo com trabalhos voluntários como ajuda na montagem e/ou ensaios.",
+    instagram: "",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/nayra.jpg?raw=true",
+  },
   {
     dataHora: "28/08/2024 13:14:12",
     email: "larissa.fc1995@hotmail.com",
@@ -574,7 +670,7 @@ export const playsSeason: ActorInfoDTO[] = [
     facebook: "",
     linkedin: "",
     recadinho: "",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/larissa-freire.jpg?raw=true",
   },
   {
     dataHora: "28/08/2024 10:57:24",
@@ -590,7 +686,7 @@ export const playsSeason: ActorInfoDTO[] = [
     facebook: "",
     linkedin: "",
     recadinho: "",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/diogenes.jpg?raw=true",
   },
   {
     dataHora: "28/08/2024 10:06:19",
@@ -613,7 +709,7 @@ export const playsSeason: ActorInfoDTO[] = [
     facebook: "",
     linkedin: "",
     recadinho: "",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/carol.jpg?raw=true",
   },
   {
     dataHora: "20/08/2024 15:30:26",
@@ -635,7 +731,7 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/rebeca_bariao.png?raw=true",
   },
   {
     dataHora: "20/08/2024 16:54:35",
@@ -660,21 +756,41 @@ export const playsSeason: ActorInfoDTO[] = [
     linkedin: "",
     facebook: "",
     recadinho: "",
-    foto: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/Lari_Dias.png?raw=true",
   },
 
+  /* 2009 */
+
+  {
+    dataHora: "28/08/2024 23:41:56",
+    email: "krl.pinheiro@gmail.com",
+    nome: "Karoline Pinheiro",
+    temporadas: [
+      "2010 - Voando para o Alto",
+      "2009 - Até onde a vista alcança",
+      "2008 - O que eu vi, o que nós veremos",
+      "2007 - Motorboy",
+    ],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais: "Nostálgico!",
+    talEPaRepresentacao:
+      "Quando jovem era só gostoso e divertido. Mas hoje, já adulta, percebo que era muito mais. Me ajudou a desenvolver habilidades artísticas, sociais e cidadãs. Sem dúvida formou meu caráter.",
+    conselho:
+      "Aproveitem ao máximo cada momento. Se envolvam em cada parte do trabalho de corpo e alma. Lembrem-se que todos são um.",
+    ajudaParaONG: "Posso contribuir financeiramente com alguns trocados.",
+    instagram: "",
+    facebook: "",
+    linkedin: "",
+    recadinho: "",
+    foto: "https://github.com/LucasRuizMartins/midia-arenart/blob/main/elenco/Voando%20-%20Sussurros%20-%20Danton/karol%20pinheiros.jpg?raw=true",
+  },
   /* 2003 - 2004 */
 
   {
     dataHora: "27/08/2024 10:09:15",
     email: "roberta.quirinop@gmail.com",
     nome: "Roberta Quirino",
-    temporadas: [
-      "2011 - Sussurros",
-      "2010 - Voando para o Alto",
-      "2004 - Arauto da Liberdade",
-      "2003 - O Mambembe",
-    ],
+    temporadas: ["2004 - Arauto da Liberdade", "2003 - O Mambembe"],
     seguePaginaInstagram: "Sim",
     conteudoRedesSociais: "",
     talEPaRepresentacao:
@@ -688,7 +804,27 @@ export const playsSeason: ActorInfoDTO[] = [
     recadinho: "Sem esse grupo, eu não seria a pessoa que sou hoje.",
     foto: "",
   },
+
   /* 1999 - 2000 */
+
+  {
+    dataHora: "28/08/2024 23:20:36",
+    email: "geprado81@gmail.com",
+    nome: "George Prado",
+    temporadas: ["1999 - Nos telhados da cidade"],
+    seguePaginaInstagram: "Sim",
+    conteudoRedesSociais:
+      "Adoro ver esse projeto que segue firme e forte depois de anos!",
+    talEPaRepresentacao: "Liberdade",
+    conselho: "Sinta e viva bem cada momento, o tempo voa...",
+    ajudaParaONG: "Divulgando o trabalho de vocês através das redes sociais.",
+    instagram: "@georgeprado.photographer",
+    facebook: "",
+    linkedin: "",
+    recadinho:
+      "Apesar de me considerar tímido na época em que participei do Tal & Pá, o que para mim era um grande desafio atuar, mas mesmo assim amei cada momento e me recordo com saudades, me sentia livre para ser quem eu quisera e foi um dos momentos mais felizes da minha adolescência.",
+    foto: "",
+  },
   {
     dataHora: "28/08/2024 11:41:28",
     email: "lavanessaf@gmail.com",

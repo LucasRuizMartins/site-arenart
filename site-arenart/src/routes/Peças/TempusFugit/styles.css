@@ -1,6 +1,17 @@
+.tempus-fugit-top {
+  width: 103%;
+}
+.tempus-fugit-top img {
+  margin: 0 auto;
+  width: 70%;
+}
 
+.background-tempus-fugit {
+  width: 103%;
+  margin-top: -5px;
+  background-color: black;
+  color: #fff;
+}
 
 @media (max-width: 768px) {
-  .elenco-desc {
-  }
 }

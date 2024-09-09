@@ -1,0 +1,45 @@
+.background-top-ate-onde {
+  margin: 0 auto;
+  display: flex;
+  width: 103%;
+
+  background-color: #000;
+}
+.shape-ate-onde {
+  background-color: #424443;
+}
+.background-ate-onde {
+  color: #000;
+}
+.background-ate-onde-2 {
+  background-color: #000;
+}
+.background-ate-onde-3 {
+  background-color: #000;
+  color: #fff;
+}
+.ate-onde-title {
+  color: #000;
+  font-size: 25px;
+  text-shadow: 1px 4px 4px rgb(14, 14, 14);
+}
+
+@media (min-width: 768px) {
+  .ate-onde-title {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .ate-onde-title {
+    font-size: 50px;
+  }
+}
+.custom-shape-divider-top-1725021547 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}

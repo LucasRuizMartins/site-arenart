@@ -89,7 +89,7 @@ export function ChaoBrasil() {
         <svg
           viewBox="0 0 1000 290"
           xmlns="http://www.w3.org/2000/svg"
-          className="wave"
+          className="divisor"
         >
           <defs>
             <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
@@ -103,7 +103,7 @@ export function ChaoBrasil() {
             stroke-width="0"
             fill="url(#gradient)"
             fill-opacity="1"
-            className="wave"
+            className="divisor"
           ></path>
         </svg>
         <Image
@@ -199,6 +199,7 @@ export function ChaoBrasil() {
         id="svg"
         viewBox="0 0 1440 490"
         xmlns="http://www.w3.org/2000/svg"
+        className="divisor"
       >
         <defs>
           <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">

@@ -2,7 +2,7 @@
 .background-top-insane{
   margin: 0 auto;
   display: flex;
-  width: 400px;
+  width: 100%;
   
 
 }
@@ -10,6 +10,7 @@
 .background-insane{
   background-color: #000;
   color: aliceblue;
+width: 103%;
 }
 
 .container-wave {

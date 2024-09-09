@@ -1,0 +1,52 @@
+.background-top-arauto {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+.arauto-title {
+  font-size: 30px;
+}
+.arauto-subtitle {
+  margin-left: 40px;
+  font-size: 30px;
+}
+.arauto-subtitle-2 {
+  margin-left: 80px;
+}
+.background-arauto {
+  background-color: #151515;
+  color: aliceblue;
+  width: 103%;
+}
+
+.container-wave {
+  position: relative;
+  height: 100vh;
+}
+
+.background-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.row-content {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1020px) {
+  .arauto-title {
+    font-size: 60px;
+  }
+  .arauto-subtitle {
+    margin-left: 180px;
+    font-size: 50px;
+  }
+  .arauto-subtitle-2 {
+    margin-left: 310px;
+  }
+}

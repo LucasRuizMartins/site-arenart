@@ -7,7 +7,7 @@ export function Header() {
   const location = useLocation();
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="nav-header">
       <Container>
         <Navbar.Brand href="/Home">
           <img className="logo" src={logo} alt="Logo" />

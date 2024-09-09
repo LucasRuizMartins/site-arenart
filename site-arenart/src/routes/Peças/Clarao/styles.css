@@ -1,4 +1,4 @@
-.shape-fill {
+.shape-fill-clarao {
   fill: #000;
 }
 .mtt-1 {
@@ -8,6 +8,7 @@
 .background-clarao {
   background-color: #000;
   color: #fff;
+  width: 103%;
 }
 
 @media (min-width: 768px) {

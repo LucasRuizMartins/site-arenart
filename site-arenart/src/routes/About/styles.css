@@ -14,6 +14,22 @@
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+
+.about-section, .first-part, .text-review {
+  margin: 0;
+  padding: 0;
+}
+
+.about-section {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.text-review {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .botao-voltar:hover {
   background-color: #fafafa;
 }
